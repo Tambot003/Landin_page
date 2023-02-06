@@ -1,0 +1,209 @@
+* {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* 
+body{
+    line-height: 1
+} */
+
+/* blockquote,q{
+    quotes: none;
+} */
+ol,
+ul {
+
+    list-style: none;
+}
+
+/*--------------------header ---------------------------*/
+
+
+nav h1 {
+    color: aliceblue;
+    width: 44px;
+    height: 2px;
+    padding-left: 44px;
+}
+
+
+header {
+    color: white;
+    justify-content: space-around;
+    height: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+header li a {
+    
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin: 0 12px;
+}
+
+header li a:hover {
+    color: rgb(13, 5, 251);
+}
+
+.s-media {
+    display: flex;
+    justify-content: right;
+    margin: 0 50px;
+    
+}
+.s-media i{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/*--------------------//header---------------------------*/
+h2 {
+    color: rgb(49, 49, 49);
+    font-size: 55px;
+}
+
+
+/* ----------------------------------------------------- */
+.container {
+    height: 880px;
+    background-color: #1294b8;
+}
+/* ------------------------------------------------------- */
+
+
+
+/* ---------------------flex inside page 1----------------------- */
+
+
+    .art h2{
+        margin-bottom: 25px;
+    }
+    p{
+        font-size: 18px;    
+    }
+    
+    .search input{
+        border: none;
+        width: 255px;
+        height: 50px;
+        padding: 15px;
+        border-radius:55px;
+    }
+    .search .init{
+        height: 15px;
+    
+    }
+    .search .sub {
+
+       padding-top: 12.5px;   
+        background-color: #089cc5 ;
+        height: 39px;
+        width: 90px;
+        margin-left: -97px;
+        border: none;
+    }
+  
+    iframe{
+        display: flex;
+        
+        width: 500px;
+        height: 400px;
+    margin-right: 165px;
+}
+.art {
+    width: 550px;
+    height: 430px;
+}
+
+/*---------------------- flex right--------------------------- */
+.search{
+
+}
+.cat {
+    width: 40%;
+}
+.cat iframe{
+    width: 650px;
+    height: 500px;
+}
+
+
+article    {
+    display: flex;
+    justify-content: center;
+}
+/*---------------------- flex right--------------------------- */
+
+
+
+/* ---------------------//flex inside page 1//---------------------- */
+
+
+
+
+
+
+
+/*-----------------Prouduct---------------------*/
+.Prouduct {
+    display: flex;
+    height: 750px;
+
+}
+.boxes #box1 {
+    border-color: aqua;
+}
+
+
+
+
+
+
+/*------------------ persons--------------------*/
+.persons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 77px;
+}
+
+.persons #per1 {
+    border-radius: 250px;
+    width: 200px;
+}
+
+.persons #per2 {
+    border-radius: 250px;
+    width: 200px;
+}
+
+.persons #per3 {
+    border-radius: 250px;
+    width: 200px;
+}
+
+.persons #per4 {
+    border-radius: 250px;
+    width: 200px;
+}
+/*------------------/ persons--------------------*/
