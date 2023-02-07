@@ -168,9 +168,6 @@ article {
    display: flex;
     flex-direction: column ;
     align-items: center;
-    
-  
-
 }
 .boxes{
  display: flex;
@@ -178,8 +175,6 @@ article {
  justify-content: space-around;
  border-radius: 25px;
  padding: 25px;
-
-   
 }
 
 
@@ -190,6 +185,7 @@ article {
 .persons {
     display: flex;
     justify-content: space-between;
+  margin-bottom: 150px;
     
     
 }
@@ -215,3 +211,32 @@ article {
 }
 
 /*------------------/ persons--------------------*/
+
+
+/*------------------PARALLAX--------------------*/
+
+.main-parallax image{
+    background-image(parallax: .png;);
+}
+.inside-tag{
+    border-style: inset; 
+    border-color: transparent;
+    background-image:calc(255);
+    color: white;
+    padding: 22px;
+    position: absolute;
+    text-align: center;
+    margin-top: 600px;
+     
+}
+.inside-tag button{
+    
+   color: white;
+    margin-top: 50px;
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+}
+.inside-tag p{
+    margin-top: 25px;
+}
