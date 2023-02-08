@@ -433,6 +433,18 @@ input:hover {
 }
 
 /* _______________________________pricing____________________________ */
+.containerourpricing{
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+.ourpricing{
+    
+   text-align: center;
+}
+.underpricingp{
+text-align: center;
+}
+
 
 span{
     font-size: 40px;
@@ -441,7 +453,90 @@ sub{
  font-size: 15px;
 }
 .tablue123{
+   
     display: flex;
-    justify-content: center;
-
+   justify-content: space-around;
+   margin-bottom: 200px;
 }
+
+.tablue1{
+    font-size: 180%;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    border-color: transparent;
+    padding: 20px;
+}
+.tablue1 h3{
+    text-align: center;
+}
+
+
+.tablue1 .bandwidth{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue1 .onlinespace{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue1 .domain{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue1 .supportno{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue1 .hiddenfees{
+    display: flex;
+    justify-content: space-between;
+}
+/*_____________________________*/
+
+
+
+.tablue2 .bandwidth{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue2 .onlinespace{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue2 .domain{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue2 .supportno{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue2 .hiddenfees{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*_________________________*/
+
+
+.tablue3 .bandwidth{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue3 .onlinespace{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue3 .domain{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue3 .supportno{
+    display: flex;
+    justify-content: space-between;
+}
+.tablue3 .hiddenfees{
+    display: flex;
+    justify-content: space-between;
+}
+
