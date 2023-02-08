@@ -431,3 +431,17 @@ input:hover {
     cursor: pointer;
     font-size: 3vh;
 }
+
+/* _______________________________pricing____________________________ */
+
+span{
+    font-size: 40px;
+}
+sub{
+ font-size: 15px;
+}
+.tablue123{
+    display: flex;
+    justify-content: center;
+
+}
