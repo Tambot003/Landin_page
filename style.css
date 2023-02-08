@@ -153,20 +153,14 @@ article {
     justify-content: center;
 }
 
-/* ______________________________________________ */
-/* ______________________________________________ */
-
-
-
-
-
-
-
 
 /*____________________PRODUCTS__________________________*/
 .Prouduct {
-    height: 750px;
+    padding: 22px;
+    height: 400px;
+    height: 400px;
     margin-top: 22px;
+    margin-bottom: 200px;
 }
 
 .wordp {
@@ -176,13 +170,19 @@ article {
 }
 
 .boxes {
+    
     display: flex;
-    gap: 35px;
+    gap: 55px;
     justify-content: space-around;
-    border-radius: 25px;
-    padding: 25px;
-}
+    border-radius: 15px;
+    padding: 55px;
+    color: white;
+    
 
+}
+.boxes i{
+    font-size: 32px;
+}
 
 
 
