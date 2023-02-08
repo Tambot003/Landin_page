@@ -1,18 +1,9 @@
 * {
-
     font-family: 'Poppins', sans-serif;
     margin: 0;
 
 }
 
-/* 
-body{
-    line-height: 1
-} */
-
-/* blockquote,q{
-    quotes: none;
-} */
 ol,
 ul {
 
@@ -20,8 +11,6 @@ ul {
 }
 
 /*_______________________HEADER________________________*/
-
-
 nav h1 {
     color: aliceblue;
     width: 44px;
@@ -426,7 +415,7 @@ article {
 input:hover {
     cursor: pointer;
 }
- 
+
 
 
 /* ___________________________BOTTOM________________________________ */
@@ -437,9 +426,8 @@ input:hover {
     border-color: rgb(60, 97, 23);
     background: rgb(174, 177, 8);
     color: rgb(206, 219, 19);
-    padding: 5px ;
+    padding: 5px;
     border-radius: 25px;
     cursor: pointer;
     font-size: 3vh;
 }
-
