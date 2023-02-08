@@ -169,6 +169,8 @@ article {
 }
 
 .boxes i {
+    display: flex;
+    justify-content: center;
     font-size: 32px;
 }
 
@@ -216,9 +218,8 @@ article {
 }
 
 .parallax-text {
-
-    margin-top: -390px;
-    margin-left: 490px;
+    margin-top: -380px;
+    margin-left: 550px;
     position: absolute;
     color: white;
     text-align: center;
@@ -226,8 +227,6 @@ article {
 
 .parallax-text a {
     text-decoration: none;
-
-
 }
 
 .parallax-text h1 {
@@ -241,13 +240,14 @@ article {
 }
 
 .background {
+    filter: brightness(50%);
     background-image: url('./img/parallax.png');
     min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(50%);
+    
 }
 
 
