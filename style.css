@@ -104,8 +104,8 @@ p {
 
 .search .sub {
 
-    padding-top: 12.5px;
-    background-color: #089cc5;
+    padding-top: 9.5px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
     height: 39px;
     width: 90px;
     margin-left: -97px;
@@ -145,8 +145,8 @@ article {
 
 /*____________________PRODUCTS__________________________*/
 .Prouduct {
-    padding: 22px;
-    height: 400px;
+    text-align: center;
+    padding: 2px;
     height: 400px;
     margin-top: 22px;
     margin-bottom: 200px;
@@ -160,24 +160,56 @@ article {
 
 .boxes {
     display: flex;
-    gap: 55px;
-    justify-content: space-around;
-    border-radius: 15px;
-    padding: 55px;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
     color: white;
 
+
+
+
 }
+
+
 
 .boxes i {
     display: flex;
     justify-content: center;
-    font-size: 32px;
+    font-size: 35px;
+}
+
+.bow1 {
+    height:  350px;
+    width: 500px;
+    padding: 35px;
+    padding-top: 22px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    border-radius: 10px;
+}
+
+.bow2 {
+    width: 500px;
+    height:  350px;
+    padding: 35px;
+    padding-top: 22px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    border-radius: 10px;
+}
+
+.bow3 {
+    width: 500px;
+    height:  350px;
+    padding: 35px;
+    padding-top: 22px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    border-radius: 10px;
 }
 
 /*________________________PERSONS________________________*/
 .persons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 300px;
     margin-bottom: 200px;
     filter: grayscale(100%);
 }
@@ -211,16 +243,15 @@ article {
 
 }
 
-.container-parallax {
-    /* width: 100%; */
-    height: 700px;
-
-}
-
 .parallax-text {
-    margin-top: -380px;
-    margin-left: 550px;
     position: absolute;
+    width: 100%;
+    height: 100%;
+    top : 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
     text-align: center;
 }
@@ -239,6 +270,10 @@ article {
     color: rgba(255, 255, 255, 0.51);
 }
 
+.container-parallax {
+    position: relative;
+}
+
 .background {
     filter: brightness(50%);
     background-image: url('./img/parallax.png');
@@ -247,7 +282,7 @@ article {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 
@@ -290,18 +325,150 @@ article {
 
 
 
-/* ______________________________________________________ */
+/* _________________TEAMS_________________ */
+.team-margin {
+    overflow: hidden;
+}
+
+.resize-img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.team-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-icon {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-icon:hover {
+    cursor: pointer;
+}
+
+.resize-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    filter: grayscale(100%);
+    transition: 0.5s;
+
+}
+
+.mini-icon {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    /* height: 20px; */
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    top: -30px;
+    left: -30px;
+    /* transform: translate(0, 0); */
+}
+
+.container-icon:hover .mini-icon {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+}
+
+.container-icon:hover .mini-icon:nth-child(1) {
+    top: 30px;
+    left: 10px;
+    transform: translate(0, 20px);
+}
+
+.container-icon:hover .mini-icon:nth-child(2) {
+    top: 30px;
+    left: 10px;
+    transform: translate(0, 50px);
+}
+
+.container-icon:hover .mini-icon:nth-child(3) {
+    top: 30px;
+    left: 10px;
+    transform: translate(0, 80px);
+}
 
 
+.team-text {
+    text-align: center;
+    font-size: 22px;
+}
 
+.team-text h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 38px;
+}
 
+.team-text p {
+    font-size: 15px;
+    margin-bottom: 100px;
+    line-height: 25px;
+}
 
-/* _________________________BLOG_________________________ */
-
-.blog {
+.team-container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.team-margin h3 {
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+    margin-top: 30px;
+}
+
+.team-margin p {
+    font-size: 15px;
+    color: rgba(49, 49, 49, 0.487);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.mini-icon:hover {
+    cursor: pointer;
+}
+
+
+.mini-icon i {
+    border-radius: 100%;
+    padding: 5px 5px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: blueviolet;
+    display: block;
+    position: relative; */
+}
+
+/* ________________BLOG______________ */
+
+.blog {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 .blog-container {
@@ -350,19 +517,19 @@ article {
     filter: none;
 }
 
-/* _______________________PRICING_______________________ */
+/* ________________PRICING______________ */
 
 
 
 
 
 
-
-/* _______________________footer_______________________ */
+/* ______________footer_________________ */
 
 .footer {
     height: 300px;
     margin-top: 150px;
+    position: inherit;
 }
 
 .footer-icon {
@@ -418,7 +585,7 @@ input:hover {
 
 
 
-/* ___________________________BOTTOM________________________________ */
+/* ________________BOTTOM_______________ */
 #scrollTop {
     position: fixed;
     bottom: 6vw;
@@ -432,111 +599,203 @@ input:hover {
     font-size: 3vh;
 }
 
-/* _______________________________pricing____________________________ */
-.containerourpricing{
+/* ________________pricing______________ */
+.chp {
+    background-color: #1294b8;
+     width: 35%;
+    margin: 0 auto;
+    padding: 20px; 
+    
+    
+    color: white;
+    
+}
+
+
+.pricingimg {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+
+
+
+.numuc {
+    justify-content: center;
+}
+
+
+
+
+.num {
+    display: flex;
+    text-align: right;
+
+}
+
+.uc {
+    display: flex;
+    justify-content: ;
+}
+
+
+/* .containerpricing{
+    margin: 0px;
+   margin-left: 650px;
+width: 50%;
+justify-content:center ;
+align-items: center;
+} */
+
+
+
+.containerourpricing {
     background-color: #F5F5F5;
+
+    width: 35%;
+    margin: 0 auto;
+
     padding: 20px;
 }
-.ourpricing{
-    
-   text-align: center;
-}
-.underpricingp{
-text-align: center;
+
+.ourpricing {
+    text-align: center;
 }
 
+.underpricingp {
+    text-align: center;
+}
 
-span{
+.pricingimg img {
+    display: flex;
+
+    margin-top: -205px;
+    width: 250px;
+}
+
+/* span{
     font-size: 40px;
 }
 sub{
  font-size: 15px;
-}
-.tablue123{
-   
+} */
+
+.tablue123 {
     display: flex;
-   justify-content: space-around;
-   margin-bottom: 200px;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 100px;
+
 }
 
-.tablue1{
-    font-size: 180%;
-    border-radius: 22px;
+
+.tablue1 {
+
+
+    border-radius: 5px;
     background-color: #FFFFFF;
-    border-color: transparent;
+
     padding: 20px;
 }
-.tablue1 h3{
-    text-align: center;
+
+.tablue2 {
+
+    border-radius: 5px;
+    background-color: #FFFFFF;
+
+    padding: 20px;
+}
+
+.tablue3 {
+
+    border-radius: 5px;
+    background-color: #FFFFFF;
+
+    padding: 20px;
 }
 
 
-.tablue1 .bandwidth{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue1 .onlinespace{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue1 .domain{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue1 .supportno{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue1 .hiddenfees{
-    display: flex;
-    justify-content: space-between;
-}
-/*_____________________________*/
-
-
-
-.tablue2 .bandwidth{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue2 .onlinespace{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue2 .domain{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue2 .supportno{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue2 .hiddenfees{
+.tablue1 .bandwidth {
     display: flex;
     justify-content: space-between;
 }
 
-/*_________________________*/
-
-
-.tablue3 .bandwidth{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue3 .onlinespace{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue3 .domain{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue3 .supportno{
-    display: flex;
-    justify-content: space-between;
-}
-.tablue3 .hiddenfees{
+.tablue1 .onlinespace {
     display: flex;
     justify-content: space-between;
 }
 
+.tablue1 .domain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue1 .supportno {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue1 .hiddenfees {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*________________________________*/
+
+
+
+.tablue2 .bandwidth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue2 .onlinespace {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue2 .domain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue2 .supportno {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue2 .hiddenfees {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*_________________________________*/
+
+
+.tablue3 .bandwidth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue3 .onlinespace {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue3 .domain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue3 .supportno {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablue3 .hiddenfees {
+    display: flex;
+    justify-content: space-between;
+}
