@@ -57,7 +57,7 @@ header li a:hover {
     display: flex;
     justify-content: right;
     margin: 0 50px;
-    margin-top: -10px;
+    margin-top: -20px;
 
 }
 
@@ -103,10 +103,10 @@ p {
 }
 
 .search .sub {
-
+    color: white;
     padding-top: 9.5px;
-    background: radial-gradient(rgb(139, 195, 245), #1294b8);
-    height: 39px;
+    background-color: #1294b8;
+    height: 35px;
     width: 90px;
     margin-left: -97px;
     border: none;
@@ -149,7 +149,7 @@ article {
     padding: 2px;
     height: 400px;
     margin-top: 22px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 .wordp {
@@ -164,58 +164,59 @@ article {
     margin-top: 20px;
     gap: 40px;
     color: white;
-
-
-
-
-}
-
-.boxes {
     margin-top: 50px;
 }
 
+
 .boxes i {
-  
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 45px;
 }
-.bow1:hover{
+
+.bow1:hover {
     transform: translateY(-10%);
     transition: 0.5s;
 }
+
 .bow1 {
     transition: 0.5s;
-    height:  350px;
+    height: 350px;
     width: 500px;
-    padding: 35px;
-    padding-top: 22px;
+    padding: 40px;
+    padding-top: 60px;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     border-radius: 10px;
 }
-.bow2:hover{
+
+.bow2:hover {
     transform: translateY(-10%);
     transition: 0.5s;
 }
+
 .bow2 {
     transition: 0.5s;
+    
+    height: 350px;
     width: 500px;
-    height:  350px;
-    padding: 35px;
-    padding-top: 22px;
+    padding: 40px;
+    padding-top: 60px;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     border-radius: 10px;
 }
-.bow3:hover{
+
+.bow3:hover {
     transform: translateY(-10%);
     transition: 0.5s;
 }
+
 .bow3 {
     transition: 0.5s;
+   
+    height: 350px;
     width: 500px;
-    height:  350px;
-    padding: 35px;
-    padding-top: 22px;
+    padding: 40px;
+    padding-top: 60px;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     border-radius: 10px;
 }
@@ -262,13 +263,17 @@ article {
     position: absolute;
     width: 100%;
     height: 100%;
-    top : 0px;
+    top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
+}
+
+.parallax-text input {
+    background-color: #3f8efd;
 }
 
 .parallax-text a {
@@ -326,10 +331,12 @@ article {
     margin: 40px auto;
     font-weight: 600;
     font-size: 15px;
+   
 }
 
 .section4 input:hover {
-    cursor: pointer;
+   color: black;
+   background-color: white;
 }
 
 
@@ -337,8 +344,6 @@ article {
     display: none;
     transition: 5s
 }
-
-
 
 /* _________________TEAMS_________________ */
 .team-margin {
@@ -602,7 +607,7 @@ input:hover {
 
 /* ________________BOTTOM_______________ */
 #scrollTop {
-   background-color: transparent;
+    background-color: transparent;
     color: #627100;
     position: fixed;
     bottom: 3vw;
@@ -613,70 +618,21 @@ input:hover {
 }
 
 /* ________________pricing______________ */
-.chp {
-    background-color: #1294b8;
-    width: 35%;
-    margin: 0 auto;
-    padding: 20px; 
-    color: white;
-    
-}
 
 
-.pricingimg {
-    display: flex;
-    justify-content: right;
-}
-
-
-.numuc {
-    justify-content: center;
-}
-
-
-
-
-.num {
-    display: flex;
-    text-align: right;
-
-}
-
-.uc {
-    display: flex;
-    justify-content: ;
-}
-
-
-/* .containerpricing{
-    margin: 0px;
-   margin-left: 650px;
-width: 50%;
-justify-content:center ;
-align-items: center;
-} */
-
-
-
-
-
-#n6{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    align-content: center;
-    gap: 60px;
-    padding-top: 5vh;
-}
-
-
+.partie
 
 /* partie de gauche */
+.btn1{
+   padding: px;
+    background-color: #1294b8;
+    font-size: 22px;
+    width: 100px;
+    border-radius: 22px;
+}
 
 
-
-#n6 > div{
+#n6>div {
     display: flex;
     flex-direction: column;
     gap: 90px;
@@ -685,18 +641,18 @@ align-items: center;
 
 /* titre + sous texte */
 
-#left{
+#left {
     display: flex;
     flex-direction: column;
     gap: 70px;
 }
 
-#left > h2{ 
+#left>h2 {
     font-size: 36px;
-    
+
 }
 
-#left > p{
+#left>p {
     font-size: 24px;
     color: gray;
     width: 40.6vw;
@@ -704,23 +660,23 @@ align-items: center;
 
 /* info chifre et boutton lien */
 
-#infon6{
+#infon6 {
     display: flex;
-    flex-direction: row;
-    gap: 120px;
+
+    gap: 10px;
 }
 
-.chiffren6{
+.chiffren6 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 6px;
 }
 
-.infon6{
-    font-size: 24px;
+.infon6 {
+    font-size: 4px;
     color: gray;
 }
 
-#infoPlus{
+#infoPlus {
     background-color: #3f8efd;
     color: white;
     font-size: 26px;
@@ -736,40 +692,32 @@ align-items: center;
 /* image de droite */
 
 
-#n6 > figure > img{
+#n6>figure>img {
     width: 40.6vw;
     min-width: 780px;
 }
 
 
 
-
-
-/* ---------- 7ème section ---------- */
-
-
-
-
-
-
-#n7{
+#n7 {
     background-color: whitesmoke;
 }
 
-#n7 > .top > h2{
+#n7>.top>h2 {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 }
-#n7 > .top > p{
+
+#n7>.top>p {
     display: flex;
     text-align: center;
     justify-content: center;
-width: 600px;
-margin: 0 auto;
+    width: 600px;
+    margin: 0 auto;
 
 }
 
-#grpcartesprix{
+#grpcartesprix {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -777,20 +725,20 @@ margin: 0 auto;
     gap: 2vw;
 }
 
-/* création des carte de prix */
 
-.carteprix{
+
+.carteprix {
     position: relative;
     width: 20.8vw;
     min-width: 400px;
     height: 500px;
     min-height: 46.3vh;
     border-radius: 18px;
-    box-shadow: 0px 0px 40px -25px black;
+    /* box-shadow: 0px 0px 40px -225px black; */
     background-color: white;
 }
 
-.interieureCarte{
+.interieureCarte {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -798,46 +746,48 @@ margin: 0 auto;
     padding-top: 30px;
 }
 
-.interieureCarte > h3{
+.interieureCarte>h3 {
     font-size: 18px;
 }
 
-.prixmois{
+.prixmois {
     display: flex;
     flex-direction: row;
     height: 5.5vh;
 }
 
-.currency , .prix{
+.currency,
+.prix {
     color: #3f8efd;
 }
 
-.currency{
+.currency {
     font-size: 3.7vh;
     display: flex;
     align-items: flex-start;
 }
 
-.prix{
+.prix {
     font-size: 5.5vh;
     display: flex;
     align-items: center;
 }
 
-.parmois{
+.parmois {
     color: gray;
     font-size: 0.9vh;
     display: flex;
     align-items: flex-end;
 }
 
-.infolignes{
+.infolignes {
     display: flex;
     flex-direction: row;
     gap: 3.125vw;
 }
 
-.typeinfo, .valueinfo{
+.typeinfo,
+.valueinfo {
     display: flex;
     flex-direction: column;
     gap: 1.8vh;
@@ -845,19 +795,19 @@ margin: 0 auto;
     font-size: 1.4vh;
 }
 
-.valueinfo{
+.valueinfo {
     text-align: right;
 }
 
-.fa-circle-check{
+.fa-circle-check {
     color: green;
 }
 
-.fa-circle-xmark{
+.fa-circle-xmark {
     color: red;
 }
 
-.interieureCarte > a{
+.interieureCarte>a {
     border: 2px solid #3f8efd;
     border-radius: 8px;
     width: 7.2vw;
@@ -866,28 +816,30 @@ margin: 0 auto;
     text-decoration: none;
 }
 
-/* pack starter + professional */
 
-#starter ,#professional{
+
+#starter,
+#professional {
     margin-top: 11vh;
 }
 
-#starter > .interieureCarte > a,#professional > .interieureCarte > a{
+#starter>.interieureCarte>a,
+#professional>.interieureCarte>a {
     color: #3f8efd;
 }
 
-/* pack advanced */
 
-#advanced{
+
+#advanced {
     margin-top: 5.5vh;
 }
 
-#advanced > .interieureCarte > a{
+#advanced>.interieureCarte>a {
     color: white;
     background-color: #3f8efd;
 }
 
-#reduc{
+#reduc {
     position: absolute;
     font-size: 19px;
     right: 0;
@@ -908,7 +860,7 @@ margin: 0 auto;
 
 
 
-#n6{
+#n6 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -920,31 +872,29 @@ margin: 0 auto;
 
 
 
-/* partie de gauche */
 
 
 
-#n6 div{
+#n6 div {
     display: flex;
     flex-direction: column;
     gap: 90px;
     padding-left: 2vw;
 }
 
-/* titre + sous texte */
 
-#left{
+#left {
     display: flex;
     flex-direction: column;
     gap: 70px;
 }
 
-#left > h2{ 
+#left>h2 {
     font-size: 36px;
-    
+
 }
 
-#left > p{
+#left>p {
     font-size: 24px;
     color: gray;
     width: 40.6vw;
@@ -952,23 +902,23 @@ margin: 0 auto;
 
 /* info chifre et boutton lien */
 
-#infon6{
+#infon6 {
     display: flex;
     flex-direction: row;
     gap: 120px;
 }
 
-.chiffren6{
+.chiffren6 {
     font-weight: 700;
     font-size: 36px;
 }
 
-.infon6{
+.infon6 {
     font-size: 24px;
     color: gray;
 }
 
-#infoPlus{
+#infoPlus {
     background-color: #3f8efd;
     color: white;
     font-size: 26px;
@@ -980,35 +930,20 @@ margin: 0 auto;
     text-decoration: none;
 }
 
-
-/* image de droite */
-
-
-#n6 > figure > img{
+#n6>figure>img {
     width: 40.6vw;
     min-width: 780px;
 }
 
-
-
-
-
-/* ---------- 7ème section ---------- */
-
-
-
-
-
-
-#n7{
+#n7 {
     background-color: whitesmoke;
 }
 
-#n7  .top  p{
+#n7 .top p {
     width: 40.6vw;
 }
 
-#grpcartesprix{
+#grpcartesprix {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1016,9 +951,8 @@ margin: 0 auto;
     gap: 2vw;
 }
 
-/* création des carte de prix */
 
-.carteprix{
+.carteprix {
     position: relative;
     width: 20.8vw;
     min-width: 400px;
@@ -1029,7 +963,7 @@ margin: 0 auto;
     background-color: white;
 }
 
-.interieureCarte{
+.interieureCarte {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1037,46 +971,48 @@ margin: 0 auto;
     padding-top: 30px;
 }
 
-.interieureCarte > h3{
+.interieureCarte>h3 {
     font-size: 18px;
 }
 
-.prixmois{
+.prixmois {
     display: flex;
     flex-direction: row;
     height: 5.5vh;
 }
 
-.currency , .prix{
+.currency,
+.prix {
     color: #3f8efd;
 }
 
-.currency{
+.currency {
     font-size: 3.7vh;
     display: flex;
     align-items: flex-start;
 }
 
-.prix{
+.prix {
     font-size: 5.5vh;
     display: flex;
     align-items: center;
 }
 
-.parmois{
+.parmois {
     color: gray;
     font-size: 0.9vh;
     display: flex;
     align-items: flex-end;
 }
 
-.infolignes{
+.infolignes {
     display: flex;
     flex-direction: row;
     gap: 3.125vw;
 }
 
-.typeinfo, .valueinfo{
+.typeinfo,
+.valueinfo {
     display: flex;
     flex-direction: column;
     gap: 1.8vh;
@@ -1084,19 +1020,19 @@ margin: 0 auto;
     font-size: 1.4vh;
 }
 
-.valueinfo{
+.valueinfo {
     text-align: right;
 }
 
-.fa-circle-check{
+.fa-circle-check {
     color: green;
 }
 
-.fa-circle-xmark{
+/* .fa-circle-xmark {
     color: red;
-}
+} */
 
-.interieureCarte > a{
+.interieureCarte>a {
     border: 2px solid #3f8efd;
     border-radius: 8px;
     width: 7.2vw;
@@ -1105,28 +1041,30 @@ margin: 0 auto;
     text-decoration: none;
 }
 
-/* pack starter + professional */
 
-#starter ,#professional{
+
+#starter,
+#professional {
     margin-top: 11vh;
 }
 
-#starter > .interieureCarte > a,#professional > .interieureCarte > a{
+#starter>.interieureCarte>a,
+#professional>.interieureCarte>a {
     color: #3f8efd;
 }
 
-/* pack advanced */
 
-#advanced{
+
+#advanced {
     margin-top: 5.5vh;
 }
 
-#advanced > .interieureCarte > a{
+#advanced>.interieureCarte>a {
     color: white;
     background-color: #3f8efd;
 }
 
-#reduc{
+#reduc {
     position: absolute;
     font-size: 19px;
     right: 0;
