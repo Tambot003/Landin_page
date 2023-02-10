@@ -170,15 +170,22 @@ article {
 
 }
 
-
+.boxes {
+    margin-top: 50px;
+}
 
 .boxes i {
+  
     display: flex;
     justify-content: center;
     font-size: 35px;
 }
-
+.bow1:hover{
+    transform: translateY(-10%);
+    transition: 0.5s;
+}
 .bow1 {
+    transition: 0.5s;
     height:  350px;
     width: 500px;
     padding: 35px;
@@ -186,8 +193,12 @@ article {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     border-radius: 10px;
 }
-
+.bow2:hover{
+    transform: translateY(-10%);
+    transition: 0.5s;
+}
 .bow2 {
+    transition: 0.5s;
     width: 500px;
     height:  350px;
     padding: 35px;
@@ -195,8 +206,12 @@ article {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     border-radius: 10px;
 }
-
+.bow3:hover{
+    transform: translateY(-10%);
+    transition: 0.5s;
+}
 .bow3 {
+    transition: 0.5s;
     width: 500px;
     height:  350px;
     padding: 35px;
@@ -741,8 +756,17 @@ align-items: center;
     background-color: whitesmoke;
 }
 
+#n7 > .top > h2{
+    display: flex;
+    justify-content: center ;
+}
 #n7 > .top > p{
-    width: 40.6vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+width: 600px;
+margin: 0 auto;
+
 }
 
 #grpcartesprix{
