@@ -587,26 +587,22 @@ input:hover {
 
 /* ________________BOTTOM_______________ */
 #scrollTop {
+   background-color: transparent;
+    color: #627100;
     position: fixed;
-    bottom: 6vw;
+    bottom: 3vw;
     right: 5vh;
-    border-color: rgb(60, 97, 23);
-    background: rgb(174, 177, 8);
-    color: rgb(206, 219, 19);
-    padding: 5px;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 3vh;
+    border-radius: 50px;
+    font-size: 2vh;
+
 }
 
 /* ________________pricing______________ */
 .chp {
     background-color: #1294b8;
-     width: 35%;
+    width: 35%;
     margin: 0 auto;
     padding: 20px; 
-    
-    
     color: white;
     
 }
@@ -647,150 +643,477 @@ align-items: center;
 
 
 
-.containerourpricing {
-    background-color: #F5F5F5;
 
-    width: 35%;
-    margin: 0 auto;
 
-    padding: 20px;
-}
-
-.ourpricing {
-    text-align: center;
-}
-
-.underpricingp {
-    text-align: center;
-}
-
-.pricingimg img {
+#n6{
     display: flex;
-
-    margin-top: -205px;
-    width: 250px;
-}
-
-/* span{
-    font-size: 40px;
-}
-sub{
- font-size: 15px;
-} */
-
-.tablue123 {
-    display: flex;
-    gap: 15px;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
-    margin-bottom: 100px;
-
+    align-content: center;
+    gap: 60px;
+    padding-top: 5vh;
 }
 
 
-.tablue1 {
+
+/* partie de gauche */
 
 
-    border-radius: 5px;
-    background-color: #FFFFFF;
 
-    padding: 20px;
-}
-
-.tablue2 {
-
-    border-radius: 5px;
-    background-color: #FFFFFF;
-
-    padding: 20px;
-}
-
-.tablue3 {
-
-    border-radius: 5px;
-    background-color: #FFFFFF;
-
-    padding: 20px;
-}
-
-
-.tablue1 .bandwidth {
+#n6 > div{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 90px;
+    padding-left: 2vw;
 }
 
-.tablue1 .onlinespace {
+/* titre + sous texte */
+
+#left{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 70px;
 }
 
-.tablue1 .domain {
-    display: flex;
-    justify-content: space-between;
+#left > h2{ 
+    font-size: 36px;
+    
 }
 
-.tablue1 .supportno {
-    display: flex;
-    justify-content: space-between;
+#left > p{
+    font-size: 24px;
+    color: gray;
+    width: 40.6vw;
 }
 
-.tablue1 .hiddenfees {
+/* info chifre et boutton lien */
+
+#infon6{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 120px;
 }
 
-/*________________________________*/
-
-
-
-.tablue2 .bandwidth {
-    display: flex;
-    justify-content: space-between;
+.chiffren6{
+    font-weight: 700;
+    font-size: 36px;
 }
 
-.tablue2 .onlinespace {
-    display: flex;
-    justify-content: space-between;
+.infon6{
+    font-size: 24px;
+    color: gray;
 }
 
-.tablue2 .domain {
-    display: flex;
-    justify-content: space-between;
+#infoPlus{
+    background-color: #3f8efd;
+    color: white;
+    font-size: 26px;
+    width: 12.5vw;
+    min-width: 240px;
+    border-radius: 8px;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
 }
 
-.tablue2 .supportno {
-    display: flex;
-    justify-content: space-between;
+
+/* image de droite */
+
+
+#n6 > figure > img{
+    width: 40.6vw;
+    min-width: 780px;
 }
 
-.tablue2 .hiddenfees {
-    display: flex;
-    justify-content: space-between;
+
+
+
+
+/* ---------- 7ème section ---------- */
+
+
+
+
+
+
+#n7{
+    background-color: whitesmoke;
 }
 
-/*_________________________________*/
-
-
-.tablue3 .bandwidth {
-    display: flex;
-    justify-content: space-between;
+#n7 > .top > p{
+    width: 40.6vw;
 }
 
-.tablue3 .onlinespace {
+#grpcartesprix{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
 }
 
-.tablue3 .domain {
-    display: flex;
-    justify-content: space-between;
+/* création des carte de prix */
+
+.carteprix{
+    position: relative;
+    width: 20.8vw;
+    min-width: 400px;
+    height: 500px;
+    min-height: 46.3vh;
+    border-radius: 18px;
+    box-shadow: 0px 0px 40px -25px black;
+    background-color: white;
 }
 
-.tablue3 .supportno {
+.interieureCarte{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.4vh;
+    padding-top: 30px;
 }
 
-.tablue3 .hiddenfees {
+.interieureCarte > h3{
+    font-size: 18px;
+}
+
+.prixmois{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    height: 5.5vh;
+}
+
+.currency , .prix{
+    color: #3f8efd;
+}
+
+.currency{
+    font-size: 3.7vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.prix{
+    font-size: 5.5vh;
+    display: flex;
+    align-items: center;
+}
+
+.parmois{
+    color: gray;
+    font-size: 0.9vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.infolignes{
+    display: flex;
+    flex-direction: row;
+    gap: 3.125vw;
+}
+
+.typeinfo, .valueinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vh;
+    width: 7vw;
+    font-size: 1.4vh;
+}
+
+.valueinfo{
+    text-align: right;
+}
+
+.fa-circle-check{
+    color: green;
+}
+
+.fa-circle-xmark{
+    color: red;
+}
+
+.interieureCarte > a{
+    border: 2px solid #3f8efd;
+    border-radius: 8px;
+    width: 7.2vw;
+    padding: 1.1vh 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* pack starter + professional */
+
+#starter ,#professional{
+    margin-top: 11vh;
+}
+
+#starter > .interieureCarte > a,#professional > .interieureCarte > a{
+    color: #3f8efd;
+}
+
+/* pack advanced */
+
+#advanced{
+    margin-top: 5.5vh;
+}
+
+#advanced > .interieureCarte > a{
+    color: white;
+    background-color: #3f8efd;
+}
+
+#reduc{
+    position: absolute;
+    font-size: 19px;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #3f8efd;
+    color: white;
+}
+
+
+
+
+
+
+#n6{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    gap: 60px;
+    padding-top: 5vh;
+}
+
+
+
+/* partie de gauche */
+
+
+
+#n6 div{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    padding-left: 2vw;
+}
+
+/* titre + sous texte */
+
+#left{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+#left > h2{ 
+    font-size: 36px;
+    
+}
+
+#left > p{
+    font-size: 24px;
+    color: gray;
+    width: 40.6vw;
+}
+
+/* info chifre et boutton lien */
+
+#infon6{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.chiffren6{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.infon6{
+    font-size: 24px;
+    color: gray;
+}
+
+#infoPlus{
+    background-color: #3f8efd;
+    color: white;
+    font-size: 26px;
+    width: 12.5vw;
+    min-width: 240px;
+    border-radius: 8px;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* image de droite */
+
+
+#n6 > figure > img{
+    width: 40.6vw;
+    min-width: 780px;
+}
+
+
+
+
+
+/* ---------- 7ème section ---------- */
+
+
+
+
+
+
+#n7{
+    background-color: whitesmoke;
+}
+
+#n7  .top  p{
+    width: 40.6vw;
+}
+
+#grpcartesprix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+/* création des carte de prix */
+
+.carteprix{
+    position: relative;
+    width: 20.8vw;
+    min-width: 400px;
+    height: 500px;
+    min-height: 46.3vh;
+    border-radius: 18px;
+    box-shadow: 0px 0px 40px -25px black;
+    background-color: white;
+}
+
+.interieureCarte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.4vh;
+    padding-top: 30px;
+}
+
+.interieureCarte > h3{
+    font-size: 18px;
+}
+
+.prixmois{
+    display: flex;
+    flex-direction: row;
+    height: 5.5vh;
+}
+
+.currency , .prix{
+    color: #3f8efd;
+}
+
+.currency{
+    font-size: 3.7vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.prix{
+    font-size: 5.5vh;
+    display: flex;
+    align-items: center;
+}
+
+.parmois{
+    color: gray;
+    font-size: 0.9vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.infolignes{
+    display: flex;
+    flex-direction: row;
+    gap: 3.125vw;
+}
+
+.typeinfo, .valueinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vh;
+    width: 7vw;
+    font-size: 1.4vh;
+}
+
+.valueinfo{
+    text-align: right;
+}
+
+.fa-circle-check{
+    color: green;
+}
+
+.fa-circle-xmark{
+    color: red;
+}
+
+.interieureCarte > a{
+    border: 2px solid #3f8efd;
+    border-radius: 8px;
+    width: 7.2vw;
+    padding: 1.1vh 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* pack starter + professional */
+
+#starter ,#professional{
+    margin-top: 11vh;
+}
+
+#starter > .interieureCarte > a,#professional > .interieureCarte > a{
+    color: #3f8efd;
+}
+
+/* pack advanced */
+
+#advanced{
+    margin-top: 5.5vh;
+}
+
+#advanced > .interieureCarte > a{
+    color: white;
+    background-color: #3f8efd;
+}
+
+#reduc{
+    position: absolute;
+    font-size: 19px;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #3f8efd;
+    color: white;
 }
